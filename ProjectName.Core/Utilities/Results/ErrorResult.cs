@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProjectName.Core.Utilities.Results
+{
+    public class ErrorResult : Result
+    {
+        public ErrorResult(string? message) : base(RESULTTYPE.ERROR, message)
+        {
+
+        }
+
+        public ErrorResult() : base(RESULTTYPE.ERROR)
+        {
+
+        }
+
+
+    }
+}
